@@ -1,0 +1,19 @@
+{
+    "sqmsver_shipping_information": {
+        "_": "-",
+        "creation_date": "2021-04-15",
+        "report_number": "PT12345678",
+        "report_version": "01",
+        "cancellation_flag": "2",
+        "plant": "0650",
+        "supplier": "10200012",
+        "supplier_ix": "F",
+        "supplier_adress": {
+            "name": "TEST GMBH",
+            "street": "TEST STR. 130",
+            "city": "WAIBLINGEN",
+            "zip": "71332",
+            "country": "DE"
+        }
+    }
+}

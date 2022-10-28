@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+
+<sqmsver_shipping_information>
+
+<creation_date>2021-04-15</creation_date>
+<report_number>PT12345678</report_number>
+<plant>0650</plant>
+<supplier_adress>
+<name>TEST GMBH</name>
+<contact_person>TESTTEST</contact_person>
+<partnumber_text>Testteil</partnumber_text>
+<partnumber>A1111111111 </partnumber>
+<shipping_item>1</shipping_item>
+<quantity>1</quantity>
+<unitcode>01</unitcode>
+ <charge>ABCDEFGHIJ</charge>
+
+</supplier_adress>
+
+</sqmsver_shipping_information>

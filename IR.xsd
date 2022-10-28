@@ -1,0 +1,42 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="sqmsver_shipping_information">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element type="xs:date" name="creation_date"/>
+        <xs:element type="xs:string" name="report_number"/>
+        <xs:element type="xs:short" name="plant"/>
+        <xs:element type="xs:string" name="contact_person" maxOccurs="unbounded" minOccurs="0"/>
+        <xs:element type="xs:string" name="order_number"/>
+        <xs:element type="xs:int" name="supplier"/>
+        <xs:element type="xs:byte" name="shipping_flag"/>
+        <xs:element type="xs:byte" name="causer"/>
+        <xs:element type="xs:byte" name="cancellation_flag"/>
+        <xs:element name="supplier_adress">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="contact_person" maxOccurs="unbounded" minOccurs="0"/>
+              <xs:element type="xs:string" name="partnumber_text"/>
+              <xs:element type="xs:string" name="partnumber"/>
+              <xs:element type="xs:byte" name="shipping_item"/>
+              <xs:element type="xs:byte" name="quantity"/>
+              <xs:element type="xs:byte" name="unitcode"/>
+              <xs:element type="xs:string" name="charge"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="shipping_supplier_adress">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="name"/>
+              <xs:element type="xs:string" name="street"/>
+              <xs:element type="xs:string" name="city"/>
+              <xs:element type="xs:int" name="shipping_supplier"/>
+              <xs:element type="xs:int" name="zip"/>
+              <xs:element type="xs:string" name="country"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sqmsver_shipping_information>
+
+<creation_date>2021-04-15</creation_date>
+<report_number>PT12345678</report_number>
+<plant>0650</plant>
+
+<contact_person>TESTTEST</contact_person>
+<contact_person>TESTTEST</contact_person>
+<contact_person>TESTTEST</contact_person>
+<contact_person>TESTTEST</contact_person>
+<order_number>ABCDEFGHIJ</order_number>
+<supplier>10200012</supplier>
+<shipping_flag>1</shipping_flag>
+<causer>2</causer>
+<cancellation_flag>2</cancellation_flag>
+
+<supplier_adress>
+<contact_person>TESTTEST</contact_person>
+<contact_person>TESTTEST</contact_person>
+<partnumber_text>Testteil</partnumber_text>
+<partnumber>A1111111111AEVHGFHFGDGFDGSTGtyydtdddsiuurr</partnumber>
+<shipping_item>1</shipping_item>
+<quantity>1</quantity>
+<unitcode>01</unitcode>
+ <charge>ABCDEFGHIJ</charge>
+
+</supplier_adress>
+<shipping_supplier_adress>
+<name>TEST GMBH</name>
+<street>TEST STR. 130</street>
+<city>WAIBLINGEN</city>
+<shipping_supplier>10200012</shipping_supplier>
+<zip>71332</zip>
+<country>DE</country>
+</shipping_supplier_adress>
+
+
+</sqmsver_shipping_information>

@@ -1,0 +1,37 @@
+{
+    "source": "PB",
+    "createdDate": "2021-04-15",
+    "shippingNumber": "PT12345678",
+    "plantCode": "0650",
+    "siCreatedUser": "TESTTEST",
+    "siModifiedUser": "TESTTEST",
+    "createdUser": "TESTTEST",
+    "modifiedUser": "TESTTEST",
+    "orderNumber": "ABCDEFGHIJ",
+    "cancellationFlag": "2",
+    "receiverName": "TEST GMBH",  
+    "receiverAddress": "TEST STR. 130, WAIBLINGEN, 71332, DE", 
+    "freightChargeName": "free",
+    "lsNumber": "10200012",
+    "triangleTransport": true,
+    "shippingContentModels": [{
+        "createdUser": "TESTTEST",
+        "modifiedUser": "TESTTEST",
+        "partDescription": "Testteil",
+        "partNumber": "A1111111111",
+        "es1": "",
+        "es2": "",
+        "pos": "1",
+        "quantity": "1",
+        "uom": "stuck",
+        "charge": "ABCDEFGHIJ"
+    }],
+    "shippingSupplierModel": {
+    "name": "TEST GMBH",
+    "number": "10200012",
+    "street" : "TEST STR. 130",
+    "city": "WAIBLINGEN",
+    "zipcode" : "71332",
+    "country" : "DE"
+    }
+}
